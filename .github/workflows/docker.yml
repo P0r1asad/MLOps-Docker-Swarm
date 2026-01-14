@@ -25,7 +25,7 @@ jobs:
 
       - name: Build image
         run: |
-          docker build -t ghcr.io/p0rlasad/iris-ml-app:latest
+          docker build -t ghcr.io/p0rlasad/iris-ml-app:latest .
 
       - name: Push image
         run: |
